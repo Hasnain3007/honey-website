@@ -1,11 +1,30 @@
 * {
     padding: 0;
     margin: 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(75,29,11);
+}
+
+i {
+    cursor: pointer;
 }
 
 body {
@@ -235,7 +254,6 @@ nav {
     font-weight: 600;
 }
 
-.inputs {}
 
 .inputs input {
     /* width: 300px; */
@@ -322,12 +340,13 @@ nav {
     color: gray;
     outline: none;
     border: none;
-}   
+}
 
 .copymain {
     align-items: center;
 
 }
-.copymain p{
+
+.copymain p {
     margin-top: 20px;
 }
